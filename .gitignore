@@ -1,0 +1,6 @@
+unbound/unbound.conf.d/*
+unbound/*.key
+unbound/*.pem
+
+!unbound/unbound.conf.d/common.conf
+!unbound/unbound.conf.d/qname-minimisation.conf
